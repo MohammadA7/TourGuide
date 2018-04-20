@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="first_tab">TourGuide1</string>
+    <string name="second_tab">TourGuide2</string>
+    <string name="third_tab">TourGuide3</string>
+    <string name="forth_tab">TourGuide4</string>
+
+
+</resources>
