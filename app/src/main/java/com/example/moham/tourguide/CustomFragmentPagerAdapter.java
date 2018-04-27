@@ -3,9 +3,9 @@ package com.example.moham.tourguide;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 
-public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
+public class CustomFragmentPagerAdapter extends FragmentStatePagerAdapter {
 
     public CustomFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -15,13 +15,13 @@ public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch(position) {
             case 0:
-                return null;
+                return new FragmentOne();
             case 1:
-                return null;
+                return new FragmentTwo();
             case 2:
-                return null;
+                return new FragmentThree();
             case 3:
-                return null;
+                return new FragmentFour();
             default:
                 return null;
         }
@@ -37,13 +37,13 @@ public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position) {
             case 0:
-                return null;
+                return "General";
             case 1:
-                return null;
+                return "Food";
             case 2:
-                return null;
+                return "Things to Do";
             case 3:
-                return null;
+                return "Places";
             default:
                 return null;
         }
