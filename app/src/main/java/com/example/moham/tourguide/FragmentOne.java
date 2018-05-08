@@ -31,10 +31,9 @@ public class FragmentOne extends Fragment {
 
 
         ArrayList<General> arrayList = new ArrayList<>();
-        arrayList.add(new General("Dress Code", "The Saudi men wear a traditional dress called the thobe, " +
-                "and it is the law in Saudi Arabia for expat women to wear an abaya when they are out in public "));
+        arrayList.add(new General(getString(R.string.general_one_name), getString(R.string.general_one_info)));
 
-        arrayList.add(new General("Alcohol", "It is illegal to produce it, import it, or consume it. Saudi Arabia is a Muslim country where there is a strict interpretation of the Koran."));
+        arrayList.add(new General(getString(R.string.general_two_name), getString(R.string.general_two_info)));
 
 
         listView.setAdapter(new GeneralAdapter(arrayList, this.getContext()));

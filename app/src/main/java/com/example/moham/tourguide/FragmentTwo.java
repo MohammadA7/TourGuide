@@ -31,8 +31,8 @@ public class FragmentTwo extends Fragment {
         ListView listView = view.findViewById(R.id.list_view);
 
         arrayList = new ArrayList<>();
-        arrayList.add(new Places(R.drawable.almajlis , "Al Majlis Al Khaleeji Restaurant", "https://goo.gl/maps/mWxQXzmr91x"));
-        arrayList.add(new Places(R.drawable.alromansiah , "Alromansih Restaurant", "https://goo.gl/maps/eJCQf39fozS2"));
+        arrayList.add(new Places(R.drawable.almajlis , getString(R.string.restaurant_one_name), getString(R.string.restaurant_one_info)));
+        arrayList.add(new Places(R.drawable.alromansiah , getString(R.string.restaurant_two_name), getString(R.string.restaurant_two_info)));
 
                 listView.setAdapter(new PlacesAdapter(arrayList, this.getContext()));
         return view;

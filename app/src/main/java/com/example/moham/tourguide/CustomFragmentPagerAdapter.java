@@ -1,5 +1,6 @@
 package com.example.moham.tourguide;
 
+import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,8 +9,11 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 public class CustomFragmentPagerAdapter extends FragmentStatePagerAdapter {
 
-    public CustomFragmentPagerAdapter(FragmentManager fm) {
+    Context context;
+
+    public CustomFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.context = context;
     }
 
     @Override
@@ -38,13 +42,13 @@ public class CustomFragmentPagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position) {
             case 0:
-                return "" + R.string.fragment_one_header;
+                return  context.getString(R.string.fragment_one_header);
             case 1:
-                return "" + R.string.fragment_two_header;
+                return context.getString(R.string.fragment_two_header);
             case 2:
-                return "" + R.string.fragment_three_header;
+                return context.getString(R.string.fragment_three_header);
             case 3:
-                return "" + R.string.fragment_four_header;
+                return context.getString(R.string.fragment_four_header);
             default:
                 return null;
         }

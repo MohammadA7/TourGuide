@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/description_text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -16,6 +16,7 @@
         android:layout_marginTop="8dp"
         android:textAppearance="@android:style/TextAppearance.Medium"
         android:textColor="@color/darkGrey"
+        app:layout_constraintWidth_default="wrap"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/barrier2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,10 +59,10 @@
 
     <TextView
         android:id="@+id/information_text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,6 +70,7 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toEndOf="@+id/information_icon"
         app:layout_constraintTop_toTopOf="@+id/barrier2"
+        app:layout_constraintWidth_default="wrap"
         tools:text="link" />
 
 </android.support.constraint.ConstraintLayout>

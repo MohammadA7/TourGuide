@@ -20,7 +20,7 @@
 
     <TextView
         android:id="@+id/description_text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -33,6 +33,7 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toEndOf="@+id/description_icon"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap"
         tools:text="name" />
 
     <ImageView
@@ -61,7 +62,7 @@
 
     <TextView
         android:id="@+id/information_text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -73,6 +74,7 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toEndOf="@+id/information_icon"
         app:layout_constraintTop_toBottomOf="@+id/description_text"
+        app:layout_constraintWidth_default="wrap"
         tools:text="link" />
 
 </android.support.constraint.ConstraintLayout>

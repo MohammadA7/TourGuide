@@ -31,8 +31,8 @@ public class FragmentThree extends Fragment {
 
 
         arrayList = new ArrayList<>();
-        arrayList.add(new Places(R.drawable.images , "Vox Cinema", "https://goo.gl/maps/GsYzyBH9XEH2"));
-        arrayList.add(new Places(R.drawable.ubc , "Universal Bowling Center", "https://goo.gl/maps/RYXRy2HbZEn"));
+        arrayList.add(new Places(R.drawable.images , getString(R.string.things_to_do_one_name), getString(R.string.things_to_do_one_info)));
+        arrayList.add(new Places(R.drawable.ubc , getString(R.string.things_to_do_two_name), getString(R.string.things_to_do_two_info)));
 
         listView.setAdapter(new PlacesAdapter(arrayList, this.getContext()));
         return view;

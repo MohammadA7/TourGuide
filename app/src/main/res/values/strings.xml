@@ -5,5 +5,21 @@
     <string name="fragment_two_header">Restaurants</string>
     <string name="fragment_three_header">Things to Do</string>
     <string name="fragment_four_header">Places</string>
+    <string name="restaurant_one_name">Al Majlis Al Khaleeji Restaurant</string>
+    <string name="restaurant_one_info">https://goo.gl/maps/mWxQXzmr91x</string>
+    <string name="restaurant_two_name">Alromansih Restaurant</string>
+    <string name="restaurant_two_info">https://goo.gl/maps/eJCQf39fozS2</string>
+    <string name="place_one_name">Masmak fort</string>
+    <string name="place_one_info">https://goo.gl/maps/xjUpr6i6bi92</string>
+    <string name="place_two_info">https://goo.gl/maps/HJsmHsJiTky</string>
+    <string name="place_two_name">National Museum of Saudi Arabia</string>
+    <string name="general_one_name">Dress Code</string>
+    <string name="general_one_info">The Saudi men wear a traditional dress called the thobe, and it is the law in Saudi Arabia for expat women to wear an abaya when they are out in public</string>
+    <string name="general_two_name">Alcohol</string>
+    <string name="general_two_info">It is illegal to produce it, import it, or consume it. Saudi Arabia is a Muslim country where there is a strict interpretation of the Koran.</string>
+    <string name="things_to_do_one_name">Vox Cinema</string>
+    <string name="things_to_do_two_name">Universal Bowling Center</string>
+    <string name="things_to_do_one_info">https://goo.gl/maps/GsYzyBH9XEH2</string>
+    <string name="things_to_do_two_info">https://goo.gl/maps/RYXRy2HbZEn</string>
 
 </resources>

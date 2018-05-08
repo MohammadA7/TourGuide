@@ -32,8 +32,8 @@ public class FragmentFour extends Fragment {
 
 
         arrayList = new ArrayList<>();
-        arrayList.add(new Places(R.drawable.musmak, "Masmak fort", "https://goo.gl/maps/xjUpr6i6bi92"));
-        arrayList.add(new Places(R.drawable.unnamed, "National Museum of Saudi Arabia", "https://goo.gl/maps/HJsmHsJiTky"));
+        arrayList.add(new Places(R.drawable.musmak, getString(R.string.place_one_name), getString(R.string.place_one_info)));
+        arrayList.add(new Places(R.drawable.unnamed, getString(R.string.place_two_name), getString(R.string.place_two_info)));
 
         listView.setAdapter(new PlacesAdapter(arrayList, this.getContext()));
         return view;
