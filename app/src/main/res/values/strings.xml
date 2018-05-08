@@ -1,12 +1,9 @@
 <resources>
     <string name="app_name">Riyadh Tour Guide</string>
-    <string name="first_tab">First</string>
-    <string name="second_tab">Second</string>
-    <string name="third_tab">Third</string>
-    <string name="forth_tab">Fourth</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="fragment_one_header">General</string>
+    <string name="fragment_two_header">Restaurants</string>
+    <string name="fragment_three_header">Things to Do</string>
+    <string name="fragment_four_header">Places</string>
 
 </resources>
